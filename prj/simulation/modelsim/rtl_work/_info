@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\FPGAa\a723\shizhong\pro_quartusiii\simulation\modelsim
+vbeep
+I2X5z=7MCE8oQOFb0m=:Y[1
+VnCSlIJUl8RFY5nXPmjzS_2
+Z1 dG:\FPGAa\a723\shizhong\pro_quartusiii\simulation\modelsim
+w1500875967
+8G:/FPGAa/a723/shizhong/src/beep.v
+FG:/FPGAa/a723/shizhong/src/beep.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 2M5^=nlHLglA<^jk4n=QI2
+!s85 0
+!s108 1500875980.641000
+!s107 G:/FPGAa/a723/shizhong/src/beep.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAa/a723/shizhong/src|G:/FPGAa/a723/shizhong/src/beep.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+G:/FPGAa/a723/shizhong/src -O0
+vbeep_tb
+!i10b 1
+!s100 ZgbL5O7@LHK`oEcLYAkZJ2
+IUCkzn_cj5lh_I>o5mBj3b1
+V4VB_kj33BioXj53I[@XfQ2
+R1
+w1500864707
+8G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v
+FG:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1500875980.735000
+!s107 G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAa/a723/shizhong/pro_quartusiii/../sim|G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+G:/FPGAa/a723/shizhong/pro_quartusiii/../sim -O0

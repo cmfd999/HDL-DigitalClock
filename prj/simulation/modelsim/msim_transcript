@@ -1,0 +1,57 @@
+# Reading E:/altera/13.1/modelsim_ase/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do shizhong_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.1\modelsim_ase\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.1\modelsim_ase\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+G:/FPGAa/a723/shizhong/src {G:/FPGAa/a723/shizhong/src/beep.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module beep
+# 
+# Top level modules:
+# 	beep
+# 
+# vlog -vlog01compat -work work +incdir+G:/FPGAa/a723/shizhong/pro_quartusiii/../sim {G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module beep_tb
+# 
+# Top level modules:
+# 	beep_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  beep_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps beep_tb 
+# Loading work.beep_tb
+# Loading work.beep
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: ZK  Hostname: WINDOW10  ProcessID: 8644
+# 
+#           Attempting to use alternate WLF file "./wlftz85813".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftz85813
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module beep_tb at G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v line 37
+# Simulation Breakpoint: Break in Module beep_tb at G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v line 37
+# MACRO ./shizhong_run_msim_rtl_verilog.do PAUSED at line 17
+add wave -position insertpoint  \
+sim:/beep_tb/beep/cnt \
+sim:/beep_tb/beep/frep \
+sim:/beep_tb/beep/falg
+restart
+run -all
+# Break in Module beep_tb at G:/FPGAa/a723/shizhong/pro_quartusiii/../sim/beep_tb.v line 37
